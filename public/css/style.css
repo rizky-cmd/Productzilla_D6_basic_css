@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('image/pattern.jpg');
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+nav {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 100px;
+    height: 100px;
+}
+nav ul{
+padding: 0;
+margin: 0;
+}
+nav ul a li{
+    height: auto;
+    float: right;
+    display: block;
+    color: black;
+    margin: 0;
+    padding: 15px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#article-list {   
+    position: relative;
+    width: 100%;
+}
+article {
+    position: relative;
+    border-bottom: solid;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+padding-top: 10px;
+}
+footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background: black;
+    margin-top: 100px;
+}
